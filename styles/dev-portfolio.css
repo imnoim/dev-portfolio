@@ -224,3 +224,51 @@ main section {
     font-weight: 700;
     margin-bottom: 30px;
 }
+
+/* footer styles */
+
+.footer-content {
+    display: flex;
+    gap: 115px;
+    padding: 130px 230px;
+}
+
+.footer-title {
+    margin-bottom: 20px;
+}
+
+.footer-description {
+    margin-bottom: 20px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+form input[type="text"], form input[type="email"] {
+    color: #757575;
+    background-color: #fff;
+    border-radius: 5px;
+    height: 64px;
+    border: none;
+    display: block;
+    width: 100%;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+}
+
+form textarea {
+    color: #757575;
+    background-color: #fff;
+    border-radius: 5px;
+    height: 180px;
+    border: none;
+    display: block;
+    width: 100%;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+}
+
+.social-img img {
+    margin-right: 24px;
+}
