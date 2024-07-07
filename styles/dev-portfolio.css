@@ -28,6 +28,10 @@
     color: #474747;
 }
 
+.dark-3 {
+    color: #757575;
+}
+
 .btn-primary {
     border-radius: 5px;
     background-color: #FD6E0A;
@@ -46,6 +50,23 @@
     font-size: 20px;
     font-weight: 700;
     padding: 18px 36px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.section-title {
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.section-description {
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 20px;
 }
 
 /* header styles */
@@ -119,4 +140,36 @@ nav ul li a {
 
 .banner-img img {
     width: 584px;
+}
+
+/* main styles */
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main section {
+ margin: 130px 0px;  
+}
+
+/* about me section styles */
+
+.about-me {
+    padding: 130px 155px;
+}
+
+.about-me-infos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-me-info p {
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.about-me-info h4 {
+    font-size: 20px;
 }
