@@ -16,6 +16,10 @@
     color: #FD6E0A;
 }
 
+.bg-primary {
+    background-color: #FFF8F3;
+}
+
 .dark-1 {
     color: #181818;
 }
@@ -32,6 +36,24 @@
     font-size: 20px;
     font-weight: 700;
     padding: 18px 36px;
+}
+
+.btn-secondary {
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 36px;
+}
+
+/* header styles */
+
+.header {
+    background-image: url("../images/developer.png"), url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: left bottom, right bottom;
 }
 
 /* nav styles */
@@ -61,4 +83,40 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     font-size: 20px;
+}
+
+/* banner-container styles */
+
+.banner-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 38px 0 200px;
+}
+
+.banner-content {
+    width: 585px;
+}
+
+.banner-greetings {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-name {
+    font-size: 85px;
+    font-weight: 700;
+}
+
+.banner-description {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.download-cv-button {
+    margin-right: 30px;
+}
+
+.banner-img img {
+    width: 584px;
 }
