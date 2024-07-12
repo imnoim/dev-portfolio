@@ -273,10 +273,6 @@ form textarea {
     margin-right: 24px;
 }
 
-.hide {
-    display: none;
-}
-
 /* mobile device */
 
 @media screen and (max-width: 576px) {
@@ -297,6 +293,9 @@ form textarea {
     }
     form input[type="text"], form input[type="email"], form textarea {
         width: calc(100% - 20px);
+    }
+    .education-experience-columns {
+        padding: 0px 10px;
     }
     .about-me{
         padding: 20px;
@@ -339,7 +338,6 @@ form textarea {
     }
     
     nav ul li {
-        list-style: none;
         margin-right: 10px;
     }
     nav ul li a {
@@ -351,4 +349,67 @@ form textarea {
     .nav-title {
         font-size: 35px;
     }    
+}
+
+/* tablet device */
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    nav ul li {
+        margin-right: 20px;
+    }
+    nav {
+        padding: 30px;
+    }
+    .banner-name {
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+    .banner-greetings {
+        font-size: 40px;
+    }
+    .banner-container {
+        margin: 0 28px 0 150px;
+    }
+    .banner-content {
+        width: calc(100% - 10px);
+    }
+    .banner-container, .education-experience-columns{
+        flex-direction: column;
+    }
+    .education-experience-columns {
+        padding: 0px 30px;
+    }
+    .btn-secondary, .btn-primary {
+        font-size: 18px;
+        padding: 16px 28px;
+    }
+    .download-cv-button {
+        margin-right: 15px;
+    }
+    .banner-img img{
+        width: 100%;
+    }
+    .about-me{
+        padding: 30px;
+    }
+    .about-me-info p {
+        margin-bottom: 5px;
+    }
+    .about-me-info h4 {
+        margin-bottom: 10px;
+    }
+    .skills {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .footer-content {
+        padding: 40px;
+        gap: 50px;
+    }
+    .footer-column{
+        width: 100%;
+    }
+    form input[type="text"], form input[type="email"], form textarea {
+        width: calc(100% - 20px);
+    }
 }
